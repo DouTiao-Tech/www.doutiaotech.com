@@ -26,5 +26,5 @@ jobs:
       - name: Deploy by git
         run: |
           git fetch --unshallow
-          git remote add www git@www.hufeifei.com:repo/www.doutiaotech.com.git
+          git remote add www git@www.hufeifei.cn:repo/www.doutiaotech.com.git
           git push www master -f
